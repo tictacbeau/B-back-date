@@ -802,9 +802,6 @@ class RuleBuilderApp(QMainWindow):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     
-    # Enable High DPI scaling for modern high-resolution screens
-    app.setAttribute(Qt.ApplicationAttribute.AA_UseHighDpiPixmaps)
-    
     window = RuleBuilderApp()
     window.show()
     sys.exit(app.exec())
