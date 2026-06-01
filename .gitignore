@@ -1,0 +1,23 @@
+# PyInstaller & Build outputs
+build/
+dist/
+*.spec
+*.exe
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local config & Mock/Test data
+rule_config.json
+mock_bank_report.csv
+acme_remit.eml
+globex_remit.eml
+diner_remit.eml
+test_export.csv
+
+# IDEs
+.vscode/
+.idea/
